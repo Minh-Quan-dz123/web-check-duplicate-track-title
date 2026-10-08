@@ -519,7 +519,7 @@ function App() {
               </button>
             </div>
           </div>
-        </div>
+        </div>const regex =   /(?:^|\n)\s*(?:v\s*)?(?:[#>*`_\s]*)TRACK\s+(\d+)\s*:\s*(.+?)(?=\r?\n|$)/gi;
       )}
     </div>
   );
