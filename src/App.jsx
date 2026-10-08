@@ -14,7 +14,7 @@ function parseTracks(text) {
   // **TRACK 31: Title
   // #### TRACK 31: Title
   // ### **TRACK 31: Title
-  const regex = /(?:^|\n)\s*(?:[#>*`_\s]*)TRACK\s+(\d+)\s*:\s*(.+?)(?=\r?\n|$)/gi;
+  const regex = /(?:^|\n)\s*(?:[#>*`_\s]*)(?:[vx]\s+)?TRACK\s+(\d+)\s*:\s*(.+?)(?=\r?\n|$)/gi;
 
   let match;
 
@@ -519,7 +519,7 @@ function App() {
               </button>
             </div>
           </div>
-        </div>const regex = /(?:^|\n)\s*(?:[#>*`_\s]*)(?:[vx]\s+)?TRACK\s+(\d+)\s*:\s*(.+?)(?=\r?\n|$)/gi;
+        </div>
       )}
     </div>
   );
